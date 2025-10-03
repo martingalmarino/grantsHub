@@ -56,3 +56,8 @@ node_modules/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Build artifacts that might confuse Vercel
+out/
+dist/
+build/
