@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://irishgrantshub.ie/sitemap.xml
