@@ -153,5 +153,5 @@ If urgent updates are needed (e.g., grant amounts change):
 
 ---
 
-**Last Updated:** January 15, 2024
-**Next Scheduled Update:** April 15, 2024
+**Last Updated:** January 15, 2025
+**Next Scheduled Update:** April 15, 2025
