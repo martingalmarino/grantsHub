@@ -1,12 +1,30 @@
 {
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
+      "src": "package.json",
+      "use": "@vercel/next",
+      "config": {
+        "distDir": ".next"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/sitemap.xml",
+      "dest": "/sitemap.xml"
     },
     {
-      "source": "/robots.txt",
-      "destination": "/robots.txt"
+      "src": "/robots.txt",
+      "dest": "/robots.txt"
+    },
+    {
+      "src": "/grants",
+      "dest": "/"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ],
   "headers": [
@@ -34,13 +52,6 @@
           "value": "camera=(), microphone=(), geolocation=()"
         }
       ]
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/grants",
-      "destination": "/",
-      "permanent": false
     }
   ]
 }
