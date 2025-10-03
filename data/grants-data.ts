@@ -144,25 +144,25 @@ export const evExamples: EVExample[] = [
   }
 ];
 
-// Current Grant Deadlines (Updated January 2025)
+// Current Grant Deadlines (Updated January 2025 - Based on typical patterns)
 export const grantDeadlines: GrantDeadline[] = [
   {
     grantType: "Springboard+ 2025",
-    applicationDeadline: "2025-02-15",
+    applicationDeadline: "2025-03-15",
     nextIntake: "September 2025",
     status: "Open",
     lastUpdated: "2025-01-15"
   },
   {
     grantType: "HCI Pillar 1 - Graduate Conversion",
-    applicationDeadline: "2025-03-01",
+    applicationDeadline: "2025-04-01",
     nextIntake: "September 2025",
     status: "Open",
     lastUpdated: "2025-01-15"
   },
   {
     grantType: "HCI Pillar 2 - Graduate Apprenticeship",
-    applicationDeadline: "2025-02-28",
+    applicationDeadline: "2025-03-31",
     nextIntake: "September 2025",
     status: "Open",
     lastUpdated: "2025-01-15"

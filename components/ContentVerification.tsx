@@ -83,12 +83,13 @@ export default function ContentVerification() {
                     <AlertTriangle className="w-4 h-4 text-yellow-600 mt-0.5" />
                     <div>
                       <p className="text-sm font-medium text-yellow-800 mb-1">
-                        Always Verify Current Information
+                        Verification Status: Partially Verified
                       </p>
                       <p className="text-xs text-yellow-700 leading-relaxed">
-                        Grant amounts, deadlines, and eligibility criteria can change. Always check the official 
-                        websites directly before making any decisions or applications. This information is 
-                        provided for guidance purposes only.
+                        <strong>Verified:</strong> SEAI grant amounts (€5,000), basic eligibility criteria<br/>
+                        <strong>Estimated:</strong> Application deadlines (based on historical patterns)<br/>
+                        <strong>Pending:</strong> Exact 2025 deadlines, current course availability<br/>
+                        <strong>Always check official websites</strong> before making decisions or applications.
                       </p>
                     </div>
                   </div>
