@@ -14,9 +14,9 @@
 Vercel should automatically detect these settings, but verify:
 
 - **Framework Preset**: Next.js
-- **Build Command**: `npm run build`
-- **Output Directory**: `out`
-- **Install Command**: `npm install`
+- **Build Command**: `npm run build` (auto-detected)
+- **Output Directory**: `.next` (auto-detected)
+- **Install Command**: `npm install` (auto-detected)
 - **Root Directory**: `./` (leave empty)
 
 ### Step 3: Environment Variables (Optional)
