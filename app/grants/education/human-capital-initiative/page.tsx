@@ -3,6 +3,10 @@ import { GraduationCap, Euro, Clock, CheckCircle, AlertCircle, ExternalLink, Arr
 import CTA from '@/components/CTA'
 import FAQ from '@/components/FAQ'
 import JSONLDSchema from '@/components/JSONLDSchema'
+import RealCourseExamples from '@/components/RealCourseExamples'
+import GrantDeadlines from '@/components/GrantDeadlines'
+import ContentVerification from '@/components/ContentVerification'
+import { hciCourses, grantDeadlines } from '@/data/grants-data'
 
 export const metadata = {
   title: 'Human Capital Initiative: Advanced Education Funding Ireland 2025 | Irish Grants Hub',
@@ -445,6 +449,24 @@ export default function HumanCapitalInitiativePage() {
         title="Human Capital Initiative FAQs"
         description="Get answers to the most common questions about HCI funding and program applications."
       />
+
+      {/* Real Course Examples */}
+      <RealCourseExamples
+        courses={hciCourses}
+        title="Real HCI Course Examples"
+        description="Explore actual advanced courses available through the Human Capital Initiative with real institutions, duration, salary prospects, and career outcomes."
+      />
+
+      {/* Grant Deadlines */}
+      <GrantDeadlines
+        deadlines={grantDeadlines.filter(deadline => 
+          deadline.grantType.includes('HCI')
+        )}
+        title="Current HCI Application Deadlines"
+      />
+
+      {/* Content Verification */}
+      <ContentVerification />
 
       {/* Final CTA */}
       <section className="section-padding bg-navy-900 text-white">

@@ -3,6 +3,10 @@ import { GraduationCap, Euro, Clock, CheckCircle, AlertCircle, ExternalLink, Arr
 import CTA from '@/components/CTA'
 import FAQ from '@/components/FAQ'
 import JSONLDSchema from '@/components/JSONLDSchema'
+import RealCourseExamples from '@/components/RealCourseExamples'
+import GrantDeadlines from '@/components/GrantDeadlines'
+import ContentVerification from '@/components/ContentVerification'
+import { springboardCourses, grantDeadlines } from '@/data/grants-data'
 
 export const metadata = {
   title: 'Springboard+ Funding: Free & Subsidized Courses in Ireland 2025 | Irish Grants Hub',
@@ -441,6 +445,24 @@ export default function SpringboardPlusFundingPage() {
         title="Springboard+ Funding FAQs"
         description="Get answers to the most common questions about Springboard+ funding and course applications."
       />
+
+      {/* Real Course Examples */}
+      <RealCourseExamples
+        courses={springboardCourses}
+        title="Real Springboard+ Course Examples"
+        description="Explore actual courses available through Springboard+ with real institutions, duration, salary prospects, and career outcomes."
+      />
+
+      {/* Grant Deadlines */}
+      <GrantDeadlines
+        deadlines={grantDeadlines.filter(deadline => 
+          deadline.grantType.includes('Springboard+') || deadline.grantType.includes('HCI')
+        )}
+        title="Current Application Deadlines"
+      />
+
+      {/* Content Verification */}
+      <ContentVerification />
 
       {/* Final CTA */}
       <section className="section-padding bg-navy-900 text-white">

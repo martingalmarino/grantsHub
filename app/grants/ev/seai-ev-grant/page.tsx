@@ -3,6 +3,10 @@ import { Car, Euro, Clock, CheckCircle, AlertCircle, ExternalLink, ArrowRight } 
 import CTA from '@/components/CTA'
 import FAQ from '@/components/FAQ'
 import JSONLDSchema from '@/components/JSONLDSchema'
+import RealEVExamples from '@/components/RealEVExamples'
+import GrantDeadlines from '@/components/GrantDeadlines'
+import ContentVerification from '@/components/ContentVerification'
+import { evExamples, grantDeadlines } from '@/data/grants-data'
 
 export const metadata = {
   title: 'SEAI EV Grant: How to Apply in 2025 (Step-by-Step Guide) | Irish Grants Hub',
@@ -421,6 +425,24 @@ export default function SEAIEVGrantPage() {
         title="SEAI EV Grant FAQs"
         description="Get answers to the most common questions about the SEAI EV grant application process."
       />
+
+      {/* Real EV Examples */}
+      <RealEVExamples
+        evs={evExamples}
+        title="Real EV Examples with SEAI Grant"
+        description="See actual electric vehicles available with the SEAI grant, including real prices, grant amounts, and your final cost."
+      />
+
+      {/* Grant Deadlines */}
+      <GrantDeadlines
+        deadlines={grantDeadlines.filter(deadline => 
+          deadline.grantType.includes('SEAI')
+        )}
+        title="Current SEAI Grant Information"
+      />
+
+      {/* Content Verification */}
+      <ContentVerification />
 
       {/* Final CTA */}
       <section className="section-padding bg-navy-900 text-white">
