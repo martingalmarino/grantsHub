@@ -26,7 +26,7 @@ A modern, SEO-friendly website providing clear guidance on Irish grants for EV a
 - **Styling**: TailwindCSS
 - **Icons**: Lucide React
 - **TypeScript**: Full type safety
-- **Deployment**: Static export ready for Vercel/Netlify
+- **Deployment**: Ready for Vercel/Netlify deployment
 
 ## 🚀 Quick Start
 
@@ -54,7 +54,7 @@ npm run dev
 npm run build
 ```
 
-This creates a static export in the `out` directory, ready for deployment to any static hosting service.
+This creates an optimized production build ready for deployment to Vercel or other hosting services.
 
 ## 📁 Project Structure
 
@@ -114,7 +114,7 @@ The site is designed to be easily updated with new grant information. Key areas 
 2. **Deploy settings:**
    - Framework Preset: Next.js
    - Build Command: `npm run build`
-   - Output Directory: `out`
+   - Output Directory: `.next`
    - Install Command: `npm install`
 
 3. **Environment Variables (optional):**
@@ -128,8 +128,8 @@ The site is designed to be easily updated with new grant information. Key areas 
 
 The site can also be deployed to:
 - **Netlify**: Connect GitHub repo, build command: `npm run build`
-- **GitHub Pages**: Use GitHub Actions with static export
-- **Any static hosting service**: Upload the `out` folder after building
+- **GitHub Pages**: Use GitHub Actions with Next.js build
+- **Any hosting service**: Deploy the built `.next` directory
 
 ## 🔧 Development
 
