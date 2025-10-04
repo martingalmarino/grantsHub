@@ -45,6 +45,15 @@ export default function Footer() {
                   Home Charger Grant
                 </Link>
               </li>
+              <li>
+                <Link 
+                  href="/guides/top-ev-cars-ireland" 
+                  className="text-primary-400 hover:text-primary-300 transition-colors duration-200 text-sm font-medium flex items-center"
+                >
+                  <span className="bg-primary-600 text-white px-2 py-1 rounded text-xs mr-2">NEW</span>
+                  Top EVs in Ireland
+                </Link>
+              </li>
             </ul>
           </div>
 

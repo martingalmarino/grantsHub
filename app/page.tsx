@@ -163,6 +163,65 @@ export default function HomePage() {
         showEducationGrants={true}
       />
 
+      {/* Top EVs Guide Section */}
+      <section className="section-padding bg-gradient-to-r from-primary-50 to-blue-50">
+        <div className="container-max">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="flex items-center justify-center space-x-2 text-primary-600 mb-4">
+              <Car className="w-5 h-5" />
+              <span className="font-medium">Market Analysis</span>
+            </div>
+            
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-navy-900 mb-4">
+              Top Electric Cars in Ireland 2025
+            </h2>
+            
+            <p className="text-lg sm:text-xl text-navy-700 mb-6 sm:mb-8 leading-relaxed">
+              Discover the most popular EVs in Ireland, see which models qualify for SEAI grants up to €3,500, 
+              and find the perfect electric vehicle for your needs.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link 
+                href="/guides/top-ev-cars-ireland" 
+                className="btn-primary text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 inline-flex items-center justify-center"
+              >
+                <Car className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
+                View Top EVs Guide
+                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
+              </Link>
+              <Link 
+                href="/tools/ev-grant-calculator" 
+                className="btn-secondary text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 inline-flex items-center justify-center"
+              >
+                <Euro className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
+                Calculate Your Savings
+                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
+              </Link>
+            </div>
+
+            <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm text-navy-600">
+              <div className="flex items-center space-x-1">
+                <CheckCircle className="w-4 h-4 text-green-600" />
+                <span>Tesla Model 3 & Y</span>
+              </div>
+              <div className="flex items-center space-x-1">
+                <CheckCircle className="w-4 h-4 text-green-600" />
+                <span>Volkswagen ID.4</span>
+              </div>
+              <div className="flex items-center space-x-1">
+                <CheckCircle className="w-4 h-4 text-green-600" />
+                <span>Kia EV6</span>
+              </div>
+              <div className="flex items-center space-x-1">
+                <CheckCircle className="w-4 h-4 text-green-600" />
+                <span>All SEAI Grant Eligible</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="section-padding bg-gray-50">
         <div className="container-max">
