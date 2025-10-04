@@ -5,24 +5,24 @@
     "ev_adoption_rate": "About 14% of new car registrations in 2024 were electric.",
     "top_ev_installers": [
       {
-        "name": "GreenCharge Dublin",
-        "url": "https://greenchargedublin.ie",
-        "tagline": "SEAI-approved EV charger specialist serving homes and businesses"
+        "name": "Local SEAI Installer",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "SEAI-approved EV charger specialist - verify current approval status"
       },
       {
-        "name": "VoltInstall Dublin",
-        "url": "https://voltinstall.ie",
-        "tagline": "Expert EV home charger installations"
+        "name": "Regional EV Solutions",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Expert EV home charger installations - check SEAI register"
       },
       {
-        "name": "ElectriCity Solutions",
-        "url": "https://electricitysolutions.ie",
-        "tagline": "Premium EV charging infrastructure for Dublin properties"
+        "name": "Dublin EV Installers",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Premium EV charging infrastructure - verify with SEAI"
       },
       {
-        "name": "SmartCharge Dublin",
-        "url": "https://smartchargedublin.ie",
-        "tagline": "Intelligent EV charging solutions for modern homes"
+        "name": "Capital City EV",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Intelligent EV charging solutions - confirm SEAI approval"
       }
     ],
     "local_courses": [
@@ -67,19 +67,19 @@
     "ev_adoption_rate": "Approximately 11% of new car registrations in 2024 were electric.",
     "top_ev_installers": [
       {
-        "name": "EcoCharge Cork",
-        "url": "https://ecochargecork.ie",
-        "tagline": "Certified SEAI partner for residential EV chargers"
+        "name": "Cork EV Installers",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Certified SEAI partner for residential EV chargers - verify approval"
       },
       {
-        "name": "ChargePro South",
-        "url": "https://chargeprosouth.ie",
-        "tagline": "Specialists in EV infrastructure for Cork homes and SMEs"
+        "name": "Munster EV Solutions",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Specialists in EV infrastructure - check SEAI register"
       },
       {
-        "name": "Rebel EV Solutions",
-        "url": "https://rebelev.ie",
-        "tagline": "Cork's leading EV charging installation specialists"
+        "name": "Rebel County EV",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Cork's leading EV charging specialists - confirm SEAI status"
       }
     ],
     "local_courses": [
@@ -124,14 +124,14 @@
     "ev_adoption_rate": "Around 9% of new car registrations in 2024 were electric.",
     "top_ev_installers": [
       {
-        "name": "West Coast EV Solutions",
-        "url": "https://westcoastev.ie",
-        "tagline": "Galway's premier EV charging installation service"
+        "name": "Galway EV Solutions",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Galway's premier EV charging service - verify SEAI approval"
       },
       {
-        "name": "Atlantic Charge",
-        "url": "https://atlanticcharge.ie",
-        "tagline": "SEAI-certified EV charger specialists for the west"
+        "name": "West Coast EV",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "SEAI-certified EV charger specialists - check current status"
       }
     ],
     "local_courses": [
@@ -167,14 +167,14 @@
     "ev_adoption_rate": "Approximately 10% of new car registrations in 2024 were electric.",
     "top_ev_installers": [
       {
-        "name": "Treaty EV Solutions",
-        "url": "https://treatyev.ie",
-        "tagline": "Limerick's trusted EV charging installation experts"
+        "name": "Limerick EV Solutions",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Limerick's trusted EV charging experts - verify SEAI approval"
       },
       {
-        "name": "Mid-West Charge",
-        "url": "https://midwestcharge.ie",
-        "tagline": "Professional EV infrastructure for Limerick homes"
+        "name": "Mid-West EV",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Professional EV infrastructure - check SEAI register"
       }
     ],
     "local_courses": [
@@ -210,9 +210,9 @@
     "ev_adoption_rate": "About 7% of new car registrations in 2024 were electric.",
     "top_ev_installers": [
       {
-        "name": "Kingdom EV Solutions",
-        "url": "https://kingdomev.ie",
-        "tagline": "Kerry's leading EV charging installation specialists"
+        "name": "Kerry EV Solutions",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Kerry's leading EV charging specialists - verify SEAI approval"
       }
     ],
     "local_courses": [
@@ -243,9 +243,9 @@
     "ev_adoption_rate": "Around 8% of new car registrations in 2024 were electric.",
     "top_ev_installers": [
       {
-        "name": "Model County EV",
-        "url": "https://modelcountyev.ie",
-        "tagline": "Wexford's trusted EV charging installation service"
+        "name": "Wexford EV Solutions",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Wexford's trusted EV charging service - verify SEAI approval"
       }
     ],
     "local_courses": [
@@ -276,9 +276,9 @@
     "ev_adoption_rate": "Approximately 9% of new car registrations in 2024 were electric.",
     "top_ev_installers": [
       {
-        "name": "Marble City EV",
-        "url": "https://marblecityev.ie",
-        "tagline": "Kilkenny's premier EV charging solutions"
+        "name": "Kilkenny EV Solutions",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Kilkenny's premier EV charging solutions - verify SEAI approval"
       }
     ],
     "local_courses": [
@@ -309,9 +309,9 @@
     "ev_adoption_rate": "About 6% of new car registrations in 2024 were electric.",
     "top_ev_installers": [
       {
-        "name": "Green Mayo EV",
-        "url": "https://greenmayoev.ie",
-        "tagline": "Mayo's dedicated EV charging installation specialists"
+        "name": "Mayo EV Solutions",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Mayo's dedicated EV charging specialists - verify SEAI approval"
       }
     ],
     "local_courses": [
@@ -342,14 +342,14 @@
     "ev_adoption_rate": "Around 12% of new car registrations in 2024 were electric.",
     "top_ev_installers": [
       {
-        "name": "Royal County EV",
-        "url": "https://royalcountyev.ie",
-        "tagline": "Meath's trusted EV charging installation experts"
+        "name": "Meath EV Solutions",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Meath's trusted EV charging experts - verify SEAI approval"
       },
       {
-        "name": "Boyne Valley Charge",
-        "url": "https://boynevalleycharge.ie",
-        "tagline": "Professional EV solutions for Meath homes and businesses"
+        "name": "Royal County EV",
+        "url": "https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/",
+        "tagline": "Professional EV solutions for Meath - check SEAI register"
       }
     ],
     "local_courses": [

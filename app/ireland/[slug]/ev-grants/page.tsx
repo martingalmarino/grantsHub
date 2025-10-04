@@ -185,15 +185,24 @@ export default function CountyEVGrantsPage({ params }: { params: { slug: string 
               ))}
             </div>
             
-            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
               <div className="flex items-start space-x-3">
-                <CheckCircle className="w-5 h-5 text-yellow-600 flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-semibold text-yellow-800 mb-2">Important Note</h4>
-                  <p className="text-yellow-700 text-sm">
-                    All installers listed are SEAI-approved for EV charger installations. Always verify current approval status 
-                    directly with SEAI and the installer before proceeding with any installation.
+                  <h4 className="font-semibold text-blue-800 mb-2">Find SEAI-Approved Installers</h4>
+                  <p className="text-blue-700 text-sm mb-3">
+                    The installers listed above are examples of the types of companies that typically provide EV charging services. 
+                    Always verify current SEAI approval status before proceeding with any installation.
                   </p>
+                  <a 
+                    href="https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
+                  >
+                    View Official SEAI Installer List
+                    <ExternalLink className="w-4 h-4 ml-1" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -304,8 +313,8 @@ export default function CountyEVGrantsPage({ params }: { params: { slug: string 
               <p className="text-navy-700 leading-relaxed">
                 Irish Grants Hub is an independent informational website and is not an official government body. 
                 We are not affiliated with SEAI, any government agency, or grant providers. Always verify information 
-                with official sources before applying for grants. Installer information is provided for reference only 
-                and should be verified directly with SEAI.
+                with official sources before applying for grants. Installer information is provided as examples only 
+                and should be verified directly with SEAI's official installer register.
               </p>
             </div>
           </div>
