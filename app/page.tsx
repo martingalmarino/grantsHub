@@ -93,36 +93,36 @@ export default function HomePage() {
       <section className="bg-gradient-to-br from-primary-50 via-white to-blue-50 section-padding">
         <div className="container-max">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-navy-900 mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-navy-900 mb-6 leading-tight">
               Your Guide to 
               <span className="text-primary-600"> Irish Grants</span>
             </h1>
-            <p className="text-xl md:text-2xl text-navy-700 mb-8 leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl text-navy-700 mb-8 leading-relaxed">
               Clear, trustworthy information about EV adoption and education funding grants. 
               Stay informed about the grants available to you.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Link href="/grants/ev" className="btn-primary text-lg px-8 py-4 inline-flex items-center justify-center">
-                <Car className="w-5 h-5 mr-2" />
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-12">
+              <Link href="/grants/ev" className="btn-primary text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 inline-flex items-center justify-center">
+                <Car className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                 EV Grants
-                <ArrowRight className="w-5 h-5 ml-2" />
+                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
               </Link>
-              <Link href="/grants/education" className="btn-secondary text-lg px-8 py-4 inline-flex items-center justify-center">
-                <GraduationCap className="w-5 h-5 mr-2" />
+              <Link href="/grants/education" className="btn-secondary text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 inline-flex items-center justify-center">
+                <GraduationCap className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                 Education Grants
-                <ArrowRight className="w-5 h-5 ml-2" />
+                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
               </Link>
             </div>
 
             {/* Trust Indicators */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 max-w-3xl mx-auto">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center space-x-3 text-navy-700">
-                  <feature.icon className="w-6 h-6 text-primary-600 flex-shrink-0" />
+                  <feature.icon className="w-5 h-5 sm:w-6 sm:h-6 text-primary-600 flex-shrink-0" />
                   <div className="text-left">
-                    <div className="font-semibold">{feature.title}</div>
-                    <div className="text-sm text-navy-600">{feature.description}</div>
+                    <div className="font-semibold text-sm sm:text-base">{feature.title}</div>
+                    <div className="text-xs sm:text-sm text-navy-600">{feature.description}</div>
                   </div>
                 </div>
               ))}
@@ -134,17 +134,17 @@ export default function HomePage() {
       {/* Main Grants Section */}
       <section className="section-padding">
         <div className="container-max">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-navy-900 mb-4">
               Popular Grant Guides
             </h2>
-            <p className="text-lg text-navy-700 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg text-navy-700 max-w-3xl mx-auto">
               Comprehensive information about Ireland's most valuable grants. 
               Everything you need to know about eligibility and application processes.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             {mainGrants.map((grant, index) => (
               <GuideCard key={index} {...grant} />
             ))}
@@ -155,7 +155,7 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="section-padding bg-gray-50">
         <div className="container-max">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
             <CTA
               type="ev-grant"
               title="Learn About EV Grants"
@@ -189,16 +189,16 @@ export default function HomePage() {
       {/* Final CTA */}
       <section className="section-padding bg-navy-900 text-white">
         <div className="container-max text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             Stay Updated on Irish Grants
           </h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">
             Our guides provide comprehensive information about all major Irish grants. 
             Bookmark this site to stay informed about grant opportunities.
           </p>
-          <Link href="/about" className="btn-primary text-lg px-8 py-4 inline-flex items-center">
+          <Link href="/about" className="btn-primary text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 inline-flex items-center">
             Learn More About This Site
-            <ArrowRight className="w-5 h-5 ml-2" />
+            <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
           </Link>
         </div>
       </section>

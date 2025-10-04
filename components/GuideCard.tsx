@@ -52,7 +52,7 @@ export default function GuideCard({
           </div>
           
           <div className="flex-1 min-w-0">
-            <div className="flex items-center space-x-2 mb-2">
+            <div className="flex flex-wrap items-center gap-2 mb-2">
               <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${getCategoryColor()}`}>
                 {category === 'ev' ? 'EV Grant' : 'Education Grant'}
               </span>
@@ -61,7 +61,7 @@ export default function GuideCard({
               </span>
             </div>
             
-            <h3 className="text-xl font-semibold text-navy-900 mb-2 group-hover:text-primary-700 transition-colors duration-200">
+            <h3 className="text-lg sm:text-xl font-semibold text-navy-900 mb-2 group-hover:text-primary-700 transition-colors duration-200">
               {title}
             </h3>
             

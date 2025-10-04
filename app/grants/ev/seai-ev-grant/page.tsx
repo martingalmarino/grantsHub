@@ -162,35 +162,35 @@ export default function SEAIEVGrantPage() {
               <span className="font-medium">EV Grants</span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl font-bold text-navy-900 mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-navy-900 mb-6">
               SEAI EV Grant: How to Apply in 2025
             </h1>
             
-            <p className="text-xl text-navy-700 mb-8 leading-relaxed">
+            <p className="text-lg sm:text-xl text-navy-700 mb-6 sm:mb-8 leading-relaxed">
               Get up to <strong>€5,000</strong> towards your new electric vehicle with Ireland's most popular EV grant. 
               Our step-by-step guide makes the application process simple and stress-free.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
               <div className="flex items-center space-x-3">
-                <Euro className="w-6 h-6 text-primary-600" />
+                <Euro className="w-5 h-5 sm:w-6 sm:h-6 text-primary-600" />
                 <div>
-                  <div className="font-semibold text-navy-900">Up to €5,000</div>
-                  <div className="text-sm text-navy-600">Grant amount</div>
+                  <div className="font-semibold text-navy-900 text-sm sm:text-base">Up to €5,000</div>
+                  <div className="text-xs sm:text-sm text-navy-600">Grant amount</div>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Clock className="w-6 h-6 text-primary-600" />
+                <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-primary-600" />
                 <div>
-                  <div className="font-semibold text-navy-900">2-4 weeks</div>
-                  <div className="text-sm text-navy-600">Processing time</div>
+                  <div className="font-semibold text-navy-900 text-sm sm:text-base">2-4 weeks</div>
+                  <div className="text-xs sm:text-sm text-navy-600">Processing time</div>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <CheckCircle className="w-6 h-6 text-primary-600" />
+                <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-primary-600" />
                 <div>
-                  <div className="font-semibold text-navy-900">Ongoing</div>
-                  <div className="text-sm text-navy-600">Application period</div>
+                  <div className="font-semibold text-navy-900 text-sm sm:text-base">Ongoing</div>
+                  <div className="text-xs sm:text-sm text-navy-600">Application period</div>
                 </div>
               </div>
             </div>
@@ -214,7 +214,7 @@ export default function SEAIEVGrantPage() {
       <section className="section-padding">
         <div className="container-max">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-navy-900 mb-6">What is the SEAI EV Grant?</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-6">What is the SEAI EV Grant?</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-navy-700 leading-relaxed mb-6">
                 The SEAI (Sustainable Energy Authority of Ireland) EV Grant is a government incentive designed to 
@@ -236,10 +236,10 @@ export default function SEAIEVGrantPage() {
       <section className="section-padding bg-gray-50">
         <div className="container-max">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-navy-900 mb-6">Eligibility Requirements</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-6">Eligibility Requirements</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
               <div>
-                <h3 className="text-xl font-semibold text-navy-900 mb-4">You Must:</h3>
+                <h3 className="text-lg sm:text-xl font-semibold text-navy-900 mb-4">You Must:</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
