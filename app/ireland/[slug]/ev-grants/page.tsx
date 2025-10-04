@@ -77,7 +77,7 @@ export default function CountyEVGrantsPage({ params }: { params: { slug: string 
   return (
     <>
       <JSONLDSchema 
-        type="FAQPage" 
+        type="FAQ" 
         data={faqData} 
       />
       

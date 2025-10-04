@@ -77,7 +77,7 @@ export default function CountyEducationGrantsPage({ params }: { params: { slug: 
   return (
     <>
       <JSONLDSchema 
-        type="FAQPage" 
+        type="FAQ" 
         data={faqData} 
       />
       
