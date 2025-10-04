@@ -1,0 +1,159 @@
+{
+  "year": "2025",
+  "lastUpdated": "January 2025",
+  "nextUpdate": "July 2025",
+  
+  "stats": {
+    "2024": {
+      "totalBEVs": 17459,
+      "marketShare": "14.4%",
+      "yearOnYearGrowth": "+20%"
+    },
+    "2025": {
+      "earlyYearGrowth": "+20%",
+      "projectedTotal": 20000,
+      "note": "Based on early 2025 registration data"
+    }
+  },
+  
+  "topModels2024": [
+    {
+      "rank": 1,
+      "model": "Tesla Model 3",
+      "category": "Sedan",
+      "priceRange": "€45,000 - €55,000",
+      "batteryRange": "491 km",
+      "seaiEligible": true,
+      "grantAmount": "€3,500",
+      "description": "Top-selling BEV in many months of 2024, popular for its range and technology"
+    },
+    {
+      "rank": 2,
+      "model": "Volkswagen ID.4",
+      "category": "SUV",
+      "priceRange": "€48,000 - €58,000",
+      "batteryRange": "520 km",
+      "seaiEligible": true,
+      "grantAmount": "€3,500",
+      "description": "Often #1 in monthly registrations, excellent family SUV option"
+    },
+    {
+      "rank": 3,
+      "model": "Tesla Model Y",
+      "category": "SUV",
+      "priceRange": "€55,000 - €65,000",
+      "batteryRange": "533 km",
+      "seaiEligible": true,
+      "grantAmount": "€3,500",
+      "description": "Strong in both private and fleet sales, versatile crossover"
+    },
+    {
+      "rank": 4,
+      "model": "Kia EV6",
+      "category": "Crossover",
+      "priceRange": "€50,000 - €60,000",
+      "batteryRange": "528 km",
+      "seaiEligible": true,
+      "grantAmount": "€3,500",
+      "description": "Popular mid-size crossover with fast charging capabilities"
+    },
+    {
+      "rank": 5,
+      "model": "Hyundai Kona Electric",
+      "category": "Compact SUV",
+      "priceRange": "€35,000 - €45,000",
+      "batteryRange": "484 km",
+      "seaiEligible": true,
+      "grantAmount": "€3,500",
+      "description": "Affordable compact EV with good range and practicality"
+    },
+    {
+      "rank": 6,
+      "model": "Nissan Leaf",
+      "category": "Hatchback",
+      "priceRange": "€32,000 - €38,000",
+      "batteryRange": "385 km",
+      "seaiEligible": true,
+      "grantAmount": "€3,500",
+      "description": "Reliable and well-established EV with proven track record"
+    },
+    {
+      "rank": 7,
+      "model": "BMW iX3",
+      "category": "SUV",
+      "priceRange": "€65,000 - €75,000",
+      "batteryRange": "460 km",
+      "seaiEligible": true,
+      "grantAmount": "€3,500",
+      "description": "Premium SUV with BMW's luxury and electric efficiency"
+    },
+    {
+      "rank": 8,
+      "model": "MG ZS EV",
+      "category": "Compact SUV",
+      "priceRange": "€30,000 - €35,000",
+      "batteryRange": "440 km",
+      "seaiEligible": true,
+      "grantAmount": "€3,500",
+      "description": "Budget-friendly option with competitive range and features"
+    }
+  ],
+  
+  "risingModels2025": [
+    {
+      "rank": 1,
+      "model": "Volkswagen ID.4",
+      "performance": "Led several months in 2025",
+      "category": "SUV",
+      "priceRange": "€48,000 - €58,000",
+      "seaiEligible": true
+    },
+    {
+      "rank": 2,
+      "model": "Tesla Model 3",
+      "performance": "Top in June 2025",
+      "category": "Sedan",
+      "priceRange": "€45,000 - €55,000",
+      "seaiEligible": true
+    },
+    {
+      "rank": 3,
+      "model": "Kia EV3",
+      "performance": "New model gaining traction",
+      "category": "Compact SUV",
+      "priceRange": "€40,000 - €50,000",
+      "seaiEligible": true
+    },
+    {
+      "rank": 4,
+      "model": "Kia EV6",
+      "performance": "Consistent strong performer",
+      "category": "Crossover",
+      "priceRange": "€50,000 - €60,000",
+      "seaiEligible": true
+    },
+    {
+      "rank": 5,
+      "model": "Tesla Model Y",
+      "performance": "Strong fleet and private sales",
+      "category": "SUV",
+      "priceRange": "€55,000 - €65,000",
+      "seaiEligible": true
+    }
+  ],
+  
+  "grantEligibility": {
+    "threshold": "€60,000",
+    "maxGrant": "€3,500",
+    "homeChargerGrant": "€300",
+    "note": "Most models listed qualify for SEAI EV Grant if list price ≤ €60,000",
+    "additionalSavings": "Home Charger Grant can be combined for extra savings"
+  },
+  
+  "sources": [
+    "Society of the Irish Motor Industry (SIMI)",
+    "Central Statistics Office Ireland",
+    "SEAI Electric Vehicle Statistics",
+    "Irish EV Association"
+  ]
+}
