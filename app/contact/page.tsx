@@ -46,29 +46,6 @@ export default function ContactPage() {
     }
   }
 
-  const contactMethods = [
-    {
-      icon: Mail,
-      title: "Email Us",
-      description: "Get a response within 24 hours",
-      contact: "hello@irishgrants.org",
-      action: "Send Email"
-    },
-    {
-      icon: Phone,
-      title: "Call Us",
-      description: "Speak with our information team",
-      contact: "+353 1 234 5678",
-      action: "Call Now"
-    },
-    {
-      icon: MapPin,
-      title: "Visit Us",
-      description: "Our office in Dublin",
-      contact: "Dublin, Ireland",
-      action: "Get Directions"
-    }
-  ]
 
   const grantTypes = [
     "SEAI EV Grant",
@@ -90,45 +67,12 @@ export default function ContactPage() {
               Contact Irish Grants Hub
             </h1>
             <p className="text-lg sm:text-xl text-navy-700 mb-6 sm:mb-8 leading-relaxed">
-              Have questions about our grant information? We're here to help clarify any information 
-              on our site and provide additional details about grant programs.
+              Have questions about our grant information? Use the contact form below to get in touch.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Contact Methods */}
-      <section className="section-padding">
-        <div className="container-max">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-6 sm:mb-8 text-center">Get in Touch</h2>
-            <p className="text-center text-sm sm:text-base text-navy-700 mb-6 sm:mb-8 max-w-2xl mx-auto">
-              We provide information only. For official grant applications, please contact the relevant government agencies directly.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-12">
-              {contactMethods.map((method, index) => (
-                <div key={index} className="card text-center">
-                  <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <method.icon className="w-6 h-6 sm:w-8 sm:h-8 text-primary-600" />
-                  </div>
-                  <h3 className="text-lg sm:text-xl font-semibold text-navy-900 mb-2">
-                    {method.title}
-                  </h3>
-                  <p className="text-sm sm:text-base text-navy-700 mb-3">
-                    {method.description}
-                  </p>
-                  <p className="text-sm sm:text-base text-primary-600 font-medium mb-4">
-                    {method.contact}
-                  </p>
-                  <button className="btn-primary w-full text-sm sm:text-base">
-                    {method.action}
-                  </button>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Contact Form */}
       <section className="section-padding bg-gray-50">
@@ -136,10 +80,10 @@ export default function ContactPage() {
           <div className="max-w-2xl mx-auto">
             <div className="card">
               <h2 className="text-xl sm:text-2xl font-bold text-navy-900 mb-6 text-center">
-                Send Us a Message
+                Contact Form
               </h2>
               <p className="text-center text-sm sm:text-base text-navy-700 mb-6">
-                Questions about our grant information? We're here to help clarify any details on our site.
+                Have questions about our grant information? Please use this form to get in touch.
               </p>
               
               {submitStatus === 'success' && (
@@ -293,8 +237,7 @@ export default function ContactPage() {
                   How quickly will you respond?
                 </h3>
                 <p className="text-sm sm:text-base text-navy-700">
-                  We typically respond to all inquiries within 24 hours during business days. 
-                  For urgent questions, please call us directly.
+                  We aim to respond to all inquiries within 24-48 hours during business days.
                 </p>
               </div>
               
@@ -310,11 +253,11 @@ export default function ContactPage() {
               
               <div>
                 <h3 className="text-base sm:text-lg font-semibold text-navy-900 mb-3">
-                  Can you help with my specific situation?
+                  Can you help with specific grant applications?
                 </h3>
                 <p className="text-sm sm:text-base text-navy-700">
-                  We provide comprehensive information about grants and eligibility requirements. 
-                  For specific application assistance, please contact the relevant government agencies directly.
+                  We provide information about grants and eligibility requirements. 
+                  For application assistance, please contact the relevant government agencies directly.
                 </p>
               </div>
               
