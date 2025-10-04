@@ -12,6 +12,9 @@ export const metadata = {
   title: 'Human Capital Initiative: Advanced Education Funding Ireland 2025 | Irish Grants Hub',
   description: 'Complete guide to the Human Capital Initiative in Ireland. Get up to 100% funding for advanced courses and micro-credentials. Eligibility, application process, and expert tips.',
   keywords: 'Human Capital Initiative, HCI funding, advanced education Ireland, micro-credentials, professional development grants',
+  alternates: {
+    canonical: 'https://www.irishgrants.org/grants/education/human-capital-initiative/',
+  },
 }
 
 export default function HumanCapitalInitiativePage() {

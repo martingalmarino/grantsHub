@@ -8,6 +8,9 @@ export const metadata = {
   title: 'SEAI Home Charger Grant: Install EV Charger for €600 | Irish Grants Hub',
   description: 'Complete guide to the SEAI home charger grant in Ireland. Get up to €600 towards installing a home EV charger. Eligibility, installation process, and expert tips.',
   keywords: 'SEAI home charger grant, EV charger installation Ireland, home charger grant, EV charging grant',
+  alternates: {
+    canonical: 'https://www.irishgrants.org/grants/ev/seai-home-charger-grant/',
+  },
 }
 
 export default function SEAIHomeChargerGrantPage() {

@@ -6,6 +6,9 @@ export const metadata = {
   title: 'Who Provides Grants in Ireland - Government Agencies & Funding Bodies | Irish Grants Hub',
   description: 'Learn about the official government agencies that provide and administer grants in Ireland. SEAI, Springboard+, HCI, and other funding bodies explained.',
   keywords: 'Irish government agencies, SEAI, Springboard+, HCI, grant providers Ireland, funding bodies Ireland',
+  alternates: {
+    canonical: 'https://www.irishgrants.org/about/grant-providers/',
+  },
 }
 
 export default function GrantProvidersPage() {

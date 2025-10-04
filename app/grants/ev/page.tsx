@@ -7,6 +7,9 @@ export const metadata = {
   title: 'EV Grants Ireland 2025 - SEAI Electric Vehicle Funding | Irish Grants Hub',
   description: 'Complete guide to EV grants in Ireland. Get up to €5,000 for electric vehicles and €600 for home chargers. SEAI grants, eligibility, and application process.',
   keywords: 'EV grants Ireland, SEAI EV grant, electric vehicle grants, home charger grant, EV funding Ireland',
+  alternates: {
+    canonical: 'https://www.irishgrants.org/grants/ev/',
+  },
 }
 
 export default function EVGrantsPage() {

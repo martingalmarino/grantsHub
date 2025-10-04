@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Education Grants Ireland 2025 - Springboard+ & HCI Funding | Irish Grants Hub',
   description: 'Complete guide to education grants in Ireland. Get 90-100% funding for courses with Springboard+ and Human Capital Initiative. Free and subsidized education.',
   keywords: 'education grants Ireland, Springboard+ funding, HCI funding, free courses Ireland, education funding',
+  alternates: {
+    canonical: 'https://www.irishgrants.org/grants/education/',
+  },
 }
 
 export default function EducationGrantsPage() {

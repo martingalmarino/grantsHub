@@ -6,6 +6,9 @@ export const metadata = {
   title: 'About Irish Grants Hub - Your Trusted Guide to Irish Grants | Irish Grants Hub',
   description: 'Learn about Irish Grants Hub, your independent guide to understanding and applying for grants in Ireland. We provide clear, trustworthy information about EV and education grants.',
   keywords: 'about Irish Grants Hub, grant information Ireland, independent grant guide, Irish grants help',
+  alternates: {
+    canonical: 'https://www.irishgrants.org/about/',
+  },
 }
 
 export default function AboutPage() {

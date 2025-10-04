@@ -12,6 +12,9 @@ export const metadata = {
   title: 'Springboard+ Funding: Free & Subsidized Courses in Ireland 2025 | Irish Grants Hub',
   description: 'Complete guide to Springboard+ funding in Ireland. Get free or heavily subsidized courses for upskilling and reskilling. Eligibility, application process, and expert tips.',
   keywords: 'Springboard+ funding, free courses Ireland, upskilling grants, education funding Ireland, Springboard+ 2025',
+  alternates: {
+    canonical: 'https://www.irishgrants.org/grants/education/springboard-plus-funding/',
+  },
 }
 
 export default function SpringboardPlusFundingPage() {

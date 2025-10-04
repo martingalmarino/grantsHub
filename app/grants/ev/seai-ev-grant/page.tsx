@@ -12,6 +12,9 @@ export const metadata = {
   title: 'SEAI EV Grant: How to Apply in 2025 (Step-by-Step Guide) | Irish Grants Hub',
   description: 'Complete guide to the SEAI EV grant in Ireland. Get up to €5,000 towards your electric vehicle. Eligibility, application process, and expert tips for 2025.',
   keywords: 'SEAI EV grant, electric vehicle grant Ireland, EV grant application, SEAI grant 2025',
+  alternates: {
+    canonical: 'https://www.irishgrants.org/grants/ev/seai-ev-grant/',
+  },
 }
 
 export default function SEAIEVGrantPage() {
