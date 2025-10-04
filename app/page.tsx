@@ -4,6 +4,8 @@ import CTA from '@/components/CTA'
 import GuideCard from '@/components/GuideCard'
 import FAQ from '@/components/FAQ'
 import JSONLDSchema from '@/components/JSONLDSchema'
+import CountyPills from '@/components/CountyPills'
+import countiesData from '@/data/counties.json'
 
 export default function HomePage() {
   const mainGrants = [
@@ -151,6 +153,15 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* County Pills Section */}
+      <CountyPills 
+        counties={countiesData}
+        title="Browse Grants by County"
+        description="Find EV and Education grants available in your county with local providers and support information."
+        showEVGrants={true}
+        showEducationGrants={true}
+      />
 
       {/* CTA Section */}
       <section className="section-padding bg-gray-50">
