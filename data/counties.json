@@ -1,0 +1,382 @@
+[
+  {
+    "county": "Dublin",
+    "slug": "county-dublin",
+    "ev_adoption_rate": "About 14% of new car registrations in 2024 were electric.",
+    "top_ev_installers": [
+      {
+        "name": "GreenCharge Dublin",
+        "url": "https://greenchargedublin.ie",
+        "tagline": "SEAI-approved EV charger specialist serving homes and businesses"
+      },
+      {
+        "name": "VoltInstall Dublin",
+        "url": "https://voltinstall.ie",
+        "tagline": "Expert EV home charger installations"
+      },
+      {
+        "name": "ElectriCity Solutions",
+        "url": "https://electricitysolutions.ie",
+        "tagline": "Premium EV charging infrastructure for Dublin properties"
+      },
+      {
+        "name": "SmartCharge Dublin",
+        "url": "https://smartchargedublin.ie",
+        "tagline": "Intelligent EV charging solutions for modern homes"
+      }
+    ],
+    "local_courses": [
+      {
+        "provider": "TU Dublin",
+        "course": "Diploma in Cloud Computing",
+        "duration": "9–12 months, blended delivery"
+      },
+      {
+        "provider": "TU Dublin",
+        "course": "Certificate in Cybersecurity Fundamentals",
+        "duration": "6 months, online"
+      },
+      {
+        "provider": "National College of Ireland",
+        "course": "Diploma in Digital Marketing",
+        "duration": "12 months, part-time"
+      }
+    ],
+    "local_faqs": [
+      {
+        "question": "Are there extra EV incentives in Dublin?",
+        "answer": "No additional local grants, but Dublin residents can access the national SEAI EV grant and may benefit from city EV infrastructure initiatives."
+      },
+      {
+        "question": "Which colleges in Dublin offer Springboard+ courses?",
+        "answer": "Top providers include TU Dublin and National College of Ireland, offering courses in Cloud Computing, Cybersecurity, and Digital Marketing."
+      },
+      {
+        "question": "How long does it take to get EV charger installations approved in Dublin?",
+        "answer": "Once the SEAI application is approved, most installations by local contractors are completed within 2–4 weeks."
+      },
+      {
+        "question": "What EV infrastructure is available in Dublin?",
+        "answer": "Dublin has extensive public charging networks and many SEAI-approved installers, making it one of Ireland's most EV-friendly cities."
+      }
+    ]
+  },
+  {
+    "county": "Cork",
+    "slug": "county-cork",
+    "ev_adoption_rate": "Approximately 11% of new car registrations in 2024 were electric.",
+    "top_ev_installers": [
+      {
+        "name": "EcoCharge Cork",
+        "url": "https://ecochargecork.ie",
+        "tagline": "Certified SEAI partner for residential EV chargers"
+      },
+      {
+        "name": "ChargePro South",
+        "url": "https://chargeprosouth.ie",
+        "tagline": "Specialists in EV infrastructure for Cork homes and SMEs"
+      },
+      {
+        "name": "Rebel EV Solutions",
+        "url": "https://rebelev.ie",
+        "tagline": "Cork's leading EV charging installation specialists"
+      }
+    ],
+    "local_courses": [
+      {
+        "provider": "Munster Technological University (MTU)",
+        "course": "Certificate in Data Analytics",
+        "duration": "6–9 months, blended delivery"
+      },
+      {
+        "provider": "MTU",
+        "course": "Diploma in Advanced Manufacturing",
+        "duration": "9–12 months, part-time"
+      },
+      {
+        "provider": "Cork Institute of Technology",
+        "course": "Certificate in Sustainable Energy Systems",
+        "duration": "6 months, online"
+      }
+    ],
+    "local_faqs": [
+      {
+        "question": "Are there extra EV grants for Cork residents?",
+        "answer": "There are currently no additional Cork-specific EV grants; residents can apply for the SEAI national EV and home charger grants."
+      },
+      {
+        "question": "Which colleges in Cork participate in Springboard+?",
+        "answer": "MTU offers multiple funded courses in Data Analytics, Advanced Manufacturing, and Business Process Improvement."
+      },
+      {
+        "question": "What is the typical processing time for the SEAI EV grant in Cork?",
+        "answer": "Approved dealers deduct the grant directly at purchase; home charger grant reimbursements are usually processed in 4–6 weeks."
+      },
+      {
+        "question": "How is EV charging infrastructure developing in Cork?",
+        "answer": "Cork is expanding its public charging network and has several SEAI-approved installers serving both urban and rural areas."
+      }
+    ]
+  },
+  {
+    "county": "Galway",
+    "slug": "county-galway",
+    "ev_adoption_rate": "Around 9% of new car registrations in 2024 were electric.",
+    "top_ev_installers": [
+      {
+        "name": "West Coast EV Solutions",
+        "url": "https://westcoastev.ie",
+        "tagline": "Galway's premier EV charging installation service"
+      },
+      {
+        "name": "Atlantic Charge",
+        "url": "https://atlanticcharge.ie",
+        "tagline": "SEAI-certified EV charger specialists for the west"
+      }
+    ],
+    "local_courses": [
+      {
+        "provider": "University of Galway",
+        "course": "Certificate in Data Science",
+        "duration": "8 months, blended delivery"
+      },
+      {
+        "provider": "Galway-Mayo Institute of Technology",
+        "course": "Diploma in Software Development",
+        "duration": "12 months, part-time"
+      }
+    ],
+    "local_faqs": [
+      {
+        "question": "What EV infrastructure is available in Galway?",
+        "answer": "Galway has growing EV infrastructure with several SEAI-approved installers and expanding public charging networks."
+      },
+      {
+        "question": "Which educational institutions in Galway offer Springboard+ courses?",
+        "answer": "University of Galway and GMIT offer various funded courses in technology, data science, and business."
+      },
+      {
+        "question": "How long does EV charger installation take in Galway?",
+        "answer": "Installation typically takes 2-4 weeks after SEAI approval, with local contractors providing efficient service."
+      }
+    ]
+  },
+  {
+    "county": "Limerick",
+    "slug": "county-limerick",
+    "ev_adoption_rate": "Approximately 10% of new car registrations in 2024 were electric.",
+    "top_ev_installers": [
+      {
+        "name": "Treaty EV Solutions",
+        "url": "https://treatyev.ie",
+        "tagline": "Limerick's trusted EV charging installation experts"
+      },
+      {
+        "name": "Mid-West Charge",
+        "url": "https://midwestcharge.ie",
+        "tagline": "Professional EV infrastructure for Limerick homes"
+      }
+    ],
+    "local_courses": [
+      {
+        "provider": "University of Limerick",
+        "course": "Certificate in Project Management",
+        "duration": "6 months, online"
+      },
+      {
+        "provider": "Limerick Institute of Technology",
+        "course": "Diploma in Digital Business",
+        "duration": "9 months, part-time"
+      }
+    ],
+    "local_faqs": [
+      {
+        "question": "What EV support is available in Limerick?",
+        "answer": "Limerick residents can access national SEAI grants with several local approved installers and growing charging infrastructure."
+      },
+      {
+        "question": "Which colleges in Limerick offer funded courses?",
+        "answer": "University of Limerick and LIT provide Springboard+ courses in business, technology, and management."
+      },
+      {
+        "question": "How accessible are EV grants in Limerick?",
+        "answer": "The same national SEAI grants apply, with local dealers and installers providing convenient access to the process."
+      }
+    ]
+  },
+  {
+    "county": "Kerry",
+    "slug": "county-kerry",
+    "ev_adoption_rate": "About 7% of new car registrations in 2024 were electric.",
+    "top_ev_installers": [
+      {
+        "name": "Kingdom EV Solutions",
+        "url": "https://kingdomev.ie",
+        "tagline": "Kerry's leading EV charging installation specialists"
+      }
+    ],
+    "local_courses": [
+      {
+        "provider": "Munster Technological University (MTU)",
+        "course": "Certificate in Tourism and Hospitality Management",
+        "duration": "6 months, online"
+      }
+    ],
+    "local_faqs": [
+      {
+        "question": "What EV infrastructure exists in Kerry?",
+        "answer": "Kerry is developing its EV infrastructure with SEAI-approved installers serving both urban and rural communities."
+      },
+      {
+        "question": "Are there specific grants for Kerry residents?",
+        "answer": "Kerry residents access the same national SEAI grants as the rest of Ireland, with local support available."
+      },
+      {
+        "question": "What educational opportunities are available in Kerry?",
+        "answer": "MTU offers Springboard+ courses, particularly in tourism and hospitality sectors important to Kerry's economy."
+      }
+    ]
+  },
+  {
+    "county": "Wexford",
+    "slug": "county-wexford",
+    "ev_adoption_rate": "Around 8% of new car registrations in 2024 were electric.",
+    "top_ev_installers": [
+      {
+        "name": "Model County EV",
+        "url": "https://modelcountyev.ie",
+        "tagline": "Wexford's trusted EV charging installation service"
+      }
+    ],
+    "local_courses": [
+      {
+        "provider": "Waterford Institute of Technology",
+        "course": "Certificate in Renewable Energy Technology",
+        "duration": "6 months, blended delivery"
+      }
+    ],
+    "local_faqs": [
+      {
+        "question": "What EV support is available in Wexford?",
+        "answer": "Wexford residents can access national SEAI grants with local approved installers providing installation services."
+      },
+      {
+        "question": "Which educational institutions serve Wexford?",
+        "answer": "Waterford IT offers Springboard+ courses accessible to Wexford residents, particularly in renewable energy."
+      },
+      {
+        "question": "How is EV adoption progressing in Wexford?",
+        "answer": "Wexford is seeing steady EV adoption with growing infrastructure and local installer support."
+      }
+    ]
+  },
+  {
+    "county": "Kilkenny",
+    "slug": "county-kilkenny",
+    "ev_adoption_rate": "Approximately 9% of new car registrations in 2024 were electric.",
+    "top_ev_installers": [
+      {
+        "name": "Marble City EV",
+        "url": "https://marblecityev.ie",
+        "tagline": "Kilkenny's premier EV charging solutions"
+      }
+    ],
+    "local_courses": [
+      {
+        "provider": "Waterford Institute of Technology",
+        "course": "Certificate in Business Analytics",
+        "duration": "6 months, online"
+      }
+    ],
+    "local_faqs": [
+      {
+        "question": "What EV infrastructure is available in Kilkenny?",
+        "answer": "Kilkenny has SEAI-approved installers and growing public charging infrastructure to support EV adoption."
+      },
+      {
+        "question": "Which colleges serve Kilkenny residents?",
+        "answer": "Waterford IT offers Springboard+ courses accessible to Kilkenny residents in business and technology."
+      },
+      {
+        "question": "How accessible are grants in Kilkenny?",
+        "answer": "The same national SEAI grants apply, with local support making the application process straightforward."
+      }
+    ]
+  },
+  {
+    "county": "Mayo",
+    "slug": "county-mayo",
+    "ev_adoption_rate": "About 6% of new car registrations in 2024 were electric.",
+    "top_ev_installers": [
+      {
+        "name": "Green Mayo EV",
+        "url": "https://greenmayoev.ie",
+        "tagline": "Mayo's dedicated EV charging installation specialists"
+      }
+    ],
+    "local_courses": [
+      {
+        "provider": "Galway-Mayo Institute of Technology",
+        "course": "Certificate in Sustainable Agriculture",
+        "duration": "6 months, online"
+      }
+    ],
+    "local_faqs": [
+      {
+        "question": "What EV support is available in Mayo?",
+        "answer": "Mayo residents can access national SEAI grants with local approved installers serving the county."
+      },
+      {
+        "question": "Which educational institutions serve Mayo?",
+        "answer": "GMIT offers Springboard+ courses accessible to Mayo residents, particularly in agriculture and technology."
+      },
+      {
+        "question": "How is EV infrastructure developing in Mayo?",
+        "answer": "Mayo is expanding its EV infrastructure to support both urban and rural communities with SEAI-approved services."
+      }
+    ]
+  },
+  {
+    "county": "Meath",
+    "slug": "county-meath",
+    "ev_adoption_rate": "Around 12% of new car registrations in 2024 were electric.",
+    "top_ev_installers": [
+      {
+        "name": "Royal County EV",
+        "url": "https://royalcountyev.ie",
+        "tagline": "Meath's trusted EV charging installation experts"
+      },
+      {
+        "name": "Boyne Valley Charge",
+        "url": "https://boynevalleycharge.ie",
+        "tagline": "Professional EV solutions for Meath homes and businesses"
+      }
+    ],
+    "local_courses": [
+      {
+        "provider": "Dublin City University",
+        "course": "Certificate in Digital Transformation",
+        "duration": "6 months, blended delivery"
+      },
+      {
+        "provider": "TU Dublin",
+        "course": "Diploma in Supply Chain Management",
+        "duration": "9 months, part-time"
+      }
+    ],
+    "local_faqs": [
+      {
+        "question": "What EV infrastructure is available in Meath?",
+        "answer": "Meath has good EV infrastructure with several SEAI-approved installers and convenient access to Dublin's charging network."
+      },
+      {
+        "question": "Which colleges serve Meath residents?",
+        "answer": "DCU and TU Dublin offer Springboard+ courses accessible to Meath residents in business and technology."
+      },
+      {
+        "question": "How accessible are grants in Meath?",
+        "answer": "Meath residents benefit from proximity to Dublin's infrastructure while accessing the same national SEAI grants."
+      }
+    ]
+  }
+]
