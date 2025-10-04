@@ -171,7 +171,7 @@ export default function SpringboardPlusFundingPage() {
           description: "Complete guide to Springboard+ funding in Ireland. Get free or heavily subsidized courses for upskilling and reskilling.",
           datePublished: "2025-01-01",
           dateModified: new Date().toISOString().split('T')[0],
-          url: "https://irishgrantshub.ie/grants/education/springboard-plus-funding"
+          url: "https://www.irishgrants.org/grants/education/springboard-plus-funding"
         }} 
       />
       

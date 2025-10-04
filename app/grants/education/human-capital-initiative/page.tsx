@@ -175,7 +175,7 @@ export default function HumanCapitalInitiativePage() {
           description: "Complete guide to the Human Capital Initiative in Ireland. Get up to 100% funding for advanced courses and micro-credentials.",
           datePublished: "2025-01-01",
           dateModified: new Date().toISOString().split('T')[0],
-          url: "https://irishgrantshub.ie/grants/education/human-capital-initiative"
+          url: "https://www.irishgrants.org/grants/education/human-capital-initiative"
         }} 
       />
       

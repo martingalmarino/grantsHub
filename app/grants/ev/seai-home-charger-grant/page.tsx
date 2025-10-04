@@ -142,7 +142,7 @@ export default function SEAIHomeChargerGrantPage() {
           description: "Complete guide to the SEAI home charger grant in Ireland. Get up to €600 towards installing a home EV charger.",
           datePublished: "2025-01-01",
           dateModified: new Date().toISOString().split('T')[0],
-          url: "https://irishgrantshub.ie/grants/ev/seai-home-charger-grant"
+          url: "https://www.irishgrants.org/grants/ev/seai-home-charger-grant"
         }} 
       />
       

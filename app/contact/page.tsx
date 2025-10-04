@@ -51,7 +51,7 @@ export default function ContactPage() {
       icon: Mail,
       title: "Email Us",
       description: "Get a response within 24 hours",
-      contact: "hello@irishgrantshub.ie",
+      contact: "hello@irishgrants.org",
       action: "Send Email"
     },
     {

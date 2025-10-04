@@ -7,7 +7,7 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://irishgrantshub.ie'),
+  metadataBase: new URL('https://www.irishgrants.org'),
   title: 'Irish Grants Hub - Your Guide to EV & Education Grants in Ireland',
   description: 'Clear, trustworthy guidance for Irish residents to understand and apply for national grants including SEAI EV grants, Springboard+ funding, and HCI programs.',
   keywords: 'Ireland grants, SEAI EV grant, Springboard+, HCI funding, Irish education grants, electric vehicle grants Ireland',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description: 'Clear, trustworthy guidance for Irish residents to understand and apply for national grants.',
     type: 'website',
     locale: 'en_IE',
-    url: 'https://irishgrantshub.ie',
+    url: 'https://www.irishgrants.org',
     siteName: 'Irish Grants Hub',
   },
   twitter: {
@@ -37,7 +37,10 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://irishgrantshub.ie',
+    canonical: 'https://www.irishgrants.org',
+  },
+  verification: {
+    google: '2Eh0OjNjby5aYZETDwb4jeEEBAk4dHAYnquce-byspw',
   },
 }
 
@@ -49,6 +52,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Cookiebot */}
+        <script src="https://cdn.cookiehub.eu/c2/95b8adc8.js"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `document.addEventListener("DOMContentLoaded", function(event) {
+              var cpm = {};
+              window.cookiehub.load(cpm);
+            });`,
+          }}
+        />
+        
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{

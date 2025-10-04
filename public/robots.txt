@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://irishgrantshub.ie/sitemap.xml
+Sitemap: https://www.irishgrants.org/sitemap.xml

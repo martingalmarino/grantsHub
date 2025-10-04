@@ -144,7 +144,7 @@ export default function SEAIEVGrantPage() {
           description: "Complete guide to the SEAI EV grant in Ireland. Get up to €5,000 towards your electric vehicle.",
           datePublished: "2025-01-01",
           dateModified: new Date().toISOString().split('T')[0],
-          url: "https://irishgrantshub.ie/grants/ev/seai-ev-grant"
+          url: "https://www.irishgrants.org/grants/ev/seai-ev-grant"
         }} 
       />
       

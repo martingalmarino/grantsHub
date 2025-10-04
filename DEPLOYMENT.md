@@ -39,7 +39,7 @@ NEXT_PUBLIC_GTM_ID=GTM-XXXXXXX
 
 1. In Vercel dashboard, go to your project
 2. Click "Settings" → "Domains"
-3. Add your custom domain (e.g., `irishgrantshub.ie`)
+3. Add your custom domain (e.g., `www.irishgrants.org`)
 4. Follow DNS configuration instructions
 5. SSL certificate will be automatically provisioned
 

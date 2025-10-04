@@ -36,7 +36,7 @@ export default function JSONLDSchema({ type, data }: JSONLDSchemaProps) {
       "name": "Irish Grants Hub",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://irishgrantshub.ie/logo.png"
+        "url": "https://www.irishgrants.org/logo.png"
       }
     },
     "datePublished": articleData.datePublished,
@@ -52,8 +52,8 @@ export default function JSONLDSchema({ type, data }: JSONLDSchemaProps) {
     "@type": "Organization",
     "name": "Irish Grants Hub",
     "description": "Your trusted guide to understanding and applying for grants in Ireland",
-    "url": "https://irishgrantshub.ie",
-    "logo": "https://irishgrantshub.ie/logo.png",
+    "url": "https://www.irishgrants.org",
+    "logo": "https://www.irishgrants.org/logo.png",
     "sameAs": [
       "https://twitter.com/irishgrantshub",
       "https://linkedin.com/company/irishgrantshub"
