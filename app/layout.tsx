@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   description: 'Clear, trustworthy guidance for Irish residents to understand and apply for national grants including SEAI EV grants, Springboard+ funding, and HCI programs.',
   keywords: 'Ireland grants, SEAI EV grant, Springboard+, HCI funding, Irish education grants, electric vehicle grants Ireland',
   authors: [{ name: 'Irish Grants Hub' }],
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' }
+    ],
+    apple: { url: '/icon.svg', type: 'image/svg+xml' }
+  },
   openGraph: {
     title: 'Irish Grants Hub - Your Guide to EV & Education Grants',
     description: 'Clear, trustworthy guidance for Irish residents to understand and apply for national grants.',
