@@ -195,7 +195,7 @@ export default function CountyEVGrantsPage({ params }: { params: { slug: string 
                     Always verify current SEAI approval status before proceeding with any installation.
                   </p>
                   <a 
-                    href="https://www.seai.ie/grants/home-energy-grants/electric-vehicle-grants/" 
+                    href="https://www.seai.ie/grants/electric-vehicle-grants" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
