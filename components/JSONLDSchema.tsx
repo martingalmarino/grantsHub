@@ -4,7 +4,7 @@ interface FAQSchema {
 }
 
 interface JSONLDSchemaProps {
-  type: 'FAQ' | 'Article' | 'Organization'
+  type: 'FAQ' | 'Article' | 'Organization' | 'Calculator'
   data: any
 }
 
@@ -60,6 +60,28 @@ export default function JSONLDSchema({ type, data }: JSONLDSchemaProps) {
     ]
   })
 
+  const generateCalculatorSchema = (calculatorData: any) => ({
+    "@context": "https://schema.org",
+    "@type": "Calculator",
+    "name": calculatorData.name || "EV Grant Calculator Ireland",
+    "description": calculatorData.description || "Calculate your potential savings with SEAI electric vehicle grants in Ireland",
+    "url": calculatorData.url || "https://www.irishgrants.org/tools/ev-grant-calculator/",
+    "provider": {
+      "@type": "Organization",
+      "name": "Irish Grants Hub",
+      "url": "https://www.irishgrants.org"
+    },
+    "potentialAction": {
+      "@type": "CalculateAction",
+      "target": calculatorData.url || "https://www.irishgrants.org/tools/ev-grant-calculator/",
+      "result": {
+        "@type": "QuantitativeValue",
+        "unitCode": "EUR",
+        "description": "Estimated EV grant amount"
+      }
+    }
+  })
+
   const getSchema = () => {
     switch (type) {
       case 'FAQ':
@@ -68,6 +90,8 @@ export default function JSONLDSchema({ type, data }: JSONLDSchemaProps) {
         return generateArticleSchema(data)
       case 'Organization':
         return generateOrganizationSchema()
+      case 'Calculator':
+        return generateCalculatorSchema(data)
       default:
         return {}
     }

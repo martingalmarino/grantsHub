@@ -3,6 +3,7 @@ import { Car, Euro, Clock, CheckCircle, ArrowRight, ExternalLink, MapPin, Users 
 import CTA from '@/components/CTA'
 import FAQ from '@/components/FAQ'
 import JSONLDSchema from '@/components/JSONLDSchema'
+import EVGrantEstimator from '@/components/EVGrantEstimator'
 import countiesData from '@/data/counties.json'
 
 // Generate static params for all counties
@@ -80,6 +81,14 @@ export default function CountyEVGrantsPage({ params }: { params: { slug: string 
         type="FAQ" 
         data={faqData} 
       />
+      <JSONLDSchema 
+        type="Calculator" 
+        data={{
+          name: `${county.county} EV Grant Calculator`,
+          description: `Calculate your potential savings with SEAI electric vehicle grants in ${county.county}`,
+          url: `https://www.irishgrants.org/ireland/${county.slug}/ev-grants/`
+        }} 
+      />
       
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary-50 to-green-50 section-padding">
@@ -144,6 +153,19 @@ export default function CountyEVGrantsPage({ params }: { params: { slug: string 
                 These grants make electric vehicles more accessible and help reduce the upfront cost of going electric.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* EV Grant Estimator Section */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-max">
+          <div className="max-w-4xl mx-auto">
+            <EVGrantEstimator 
+              defaultCounty={county.county}
+              showTitle={true}
+              title={`Estimate Your EV Grant in ${county.county}`}
+            />
           </div>
         </div>
       </section>

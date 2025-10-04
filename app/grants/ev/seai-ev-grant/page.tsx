@@ -6,6 +6,7 @@ import JSONLDSchema from '@/components/JSONLDSchema'
 import RealEVExamples from '@/components/RealEVExamples'
 import GrantDeadlines from '@/components/GrantDeadlines'
 import ContentVerification from '@/components/ContentVerification'
+import EVGrantEstimator from '@/components/EVGrantEstimator'
 import { evExamples, grantDeadlines } from '@/data/grants-data'
 
 export const metadata = {
@@ -154,6 +155,14 @@ export default function SEAIEVGrantPage() {
       <JSONLDSchema 
         type="FAQ" 
         data={grantFAQs} 
+      />
+      <JSONLDSchema 
+        type="Calculator" 
+        data={{
+          name: "SEAI EV Grant Calculator",
+          description: "Calculate your potential savings with SEAI electric vehicle grants",
+          url: "https://www.irishgrants.org/grants/ev/seai-ev-grant/"
+        }} 
       />
 
       {/* Hero Section */}
@@ -326,6 +335,18 @@ export default function SEAIEVGrantPage() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* EV Grant Estimator Section */}
+      <section className="section-padding bg-white">
+        <div className="container-max">
+          <div className="max-w-4xl mx-auto">
+            <EVGrantEstimator 
+              showTitle={true}
+              title="Estimate Your EV Grant"
+            />
           </div>
         </div>
       </section>
